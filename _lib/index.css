@@ -3198,6 +3198,8 @@ footer a.permanent {
         display: flex;
         flex-direction: row;
         gap: var(--sl-spacing-small);
+        align-items: center;
+        justify-content: center;
         padding: var(--sl-spacing-small) var(--sl-spacing-small);
         --td-card-hover-border-color: var(--sl-color-neutral-300);
         --td-card-border-color: var(--sl-color-neutral-200);
