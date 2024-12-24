@@ -3190,6 +3190,10 @@ footer a.permanent {
             display: none;
         }
     }
+.white-label {
+
+    grid-column: span 2;
+}
 .white-label .card-container {
         display: flex;
         flex-direction: row;
