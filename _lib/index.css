@@ -3190,6 +3190,23 @@ footer a.permanent {
             display: none;
         }
     }
+.white-label .card-container {
+        display: flex;
+        flex-direction: row;
+        gap: var(--sl-spacing-small);
+        padding: var(--sl-spacing-small) var(--sl-spacing-small);
+        --td-card-hover-border-color: var(--sl-color-neutral-300);
+        --td-card-border-color: var(--sl-color-neutral-200);
+        --td-card-background-hover-color: var(--sl-color-neutral-100);
+        --td-card-background-color: var(--sl-color-neutral-50);
+    }
+:is(.white-label .card-container) .icon-section {
+            width: 1em;
+            height: 1em;
+        }
+:is(.white-label .card-container) .title-section {
+            font-size: var(--sl-font-size-small);
+        }
 article kbd {
         background-color: var(--sl-color-neutral-100);
         color: var(--sl-color-neutral-700);
